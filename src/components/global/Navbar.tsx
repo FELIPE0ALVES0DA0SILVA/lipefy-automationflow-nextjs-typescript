@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from  'next/image'
 import { MenuIcon } from 'lucide-react'
+import { UserButton } from '@clerk/nextjs'
 
 type Props = {}
 
@@ -66,6 +67,7 @@ const Navbar = (props: Props) => {
             {
                 // WIP: wire up user
             }
+            <UserButton/>
             <MenuIcon className='md:hidden' />
                     
         </aside>
